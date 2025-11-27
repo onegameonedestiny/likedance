@@ -1,0 +1,10 @@
+.textwrap {
+	/* Show blue outline around the HTML element */
+	border: 1px solid rgb(22, 22, 24);
+	
+	/* Make vertically scrollable */
+	overflow-y: auto;
+	
+	/* Increase font size */
+	font-size: 1em;
+}
