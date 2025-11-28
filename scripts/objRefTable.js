@@ -8,6 +8,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Arr,
 		C3.Plugins.HTMLElement,
 		C3.Plugins.TextBox,
+		C3.Plugins.Keyboard,
 		C3.Plugins.System.Cnds.OnLayoutStart,
 		C3.Plugins.AJAX.Acts.Request,
 		C3.Plugins.AJAX.Cnds.OnComplete,
@@ -32,11 +33,12 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.List.Exps.SelectedText,
 		C3.Plugins.System.Exps.int,
 		C3.Plugins.TextBox.Exps.Text,
+		C3.Plugins.Keyboard.Cnds.OnKeyCode,
 		C3.Plugins.System.Cnds.CompareVar,
 		C3.Plugins.System.Cnds.TriggerOnce,
 		C3.Plugins.System.Acts.SetVar,
-		C3.JavaScriptInEvents.事件表2_Event10,
-		C3.JavaScriptInEvents.事件表2_Event15
+		C3.JavaScriptInEvents.事件表2_Event11,
+		C3.JavaScriptInEvents.事件表2_Event16
 	];
 };
 self.C3_JsPropNameTable = [
@@ -53,6 +55,7 @@ self.C3_JsPropNameTable = [
 	{輸入框: 0},
 	{列表2: 0},
 	{控制: 0},
+	{鍵盤: 0},
 	{階段: 0},
 	{XX: 0},
 	{YY: 0},
@@ -78,5 +81,6 @@ self.InstanceType = {
 	HTML: class extends self.IHTMLElementInstance {},
 	輸入框: class extends self.ITextInputInstance {},
 	列表2: class extends self.IListInstance {},
-	控制: class extends self.IButtonInstance {}
+	控制: class extends self.IButtonInstance {},
+	鍵盤: class extends self.IInstance {}
 }

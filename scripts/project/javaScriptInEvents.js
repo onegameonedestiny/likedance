@@ -18,7 +18,7 @@ const scriptsInEvents = {
 		
 	},
 
-	async 事件表2_Event10(runtime, localVars)
+	async 事件表2_Event11(runtime, localVars)
 	{
 		await window.RT_UpdateField(
 		    "controllers/main",        // 路徑
@@ -27,7 +27,7 @@ const scriptsInEvents = {
 		);
 	},
 
-	async 事件表2_Event15(runtime, localVars)
+	async 事件表2_Event16(runtime, localVars)
 	{
 		await window.RT_UpdateField(
 		    "controllers/main",        // 路徑
